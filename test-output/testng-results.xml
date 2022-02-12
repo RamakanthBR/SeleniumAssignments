@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Admin Tab text is displaying as:'Admin']]>
+    </line>
+    <line>
+      <![CDATA[Market Place text is displaying as :'Marketplace']]>
+    </line>
+    <line>
+      <![CDATA[Welcome Admin text is displaying as :'Welcome Amit']]>
+    </line>
+    <line>
+      <![CDATA[Leaves List text is displaying as :'Leave List']]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31985" started-at="2021-11-19T10:03:28Z" finished-at="2021-11-19T10:04:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31985" started-at="2021-11-19T10:03:28Z" finished-at="2021-11-19T10:04:00Z">
+      <class name="com.qa.TestScripts.TC15_Xpath_Dashboard">
+        <test-method status="PASS" signature="BrowserOpen()[pri:0, instance:com.qa.TestScripts.TC15_Xpath_Dashboard@7d9d1a19]" name="BrowserOpen" is-config="true" duration-ms="12349" started-at="2021-11-19T15:33:28Z" finished-at="2021-11-19T15:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.qa.TestScripts.TC15_Xpath_Dashboard@7d9d1a19]" name="Login" duration-ms="8743" started-at="2021-11-19T15:33:41Z" finished-at="2021-11-19T15:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="XPATh()[pri:2, instance:com.qa.TestScripts.TC15_Xpath_Dashboard@7d9d1a19]" name="XPATh" duration-ms="9702" started-at="2021-11-19T15:33:50Z" depends-on-methods="com.qa.TestScripts.TC15_Xpath_Dashboard.Login" finished-at="2021-11-19T15:33:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin Tab text is displaying as:'Admin']]>
+            </line>
+            <line>
+              <![CDATA[Market Place text is displaying as :'Marketplace']]>
+            </line>
+            <line>
+              <![CDATA[Welcome Admin text is displaying as :'Welcome Amit']]>
+            </line>
+            <line>
+              <![CDATA[Leaves List text is displaying as :'Leave List']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- XPATh -->
+        <test-method status="PASS" signature="signoff()[pri:0, instance:com.qa.TestScripts.TC15_Xpath_Dashboard@7d9d1a19]" name="signoff" is-config="true" duration-ms="1111" started-at="2021-11-19T15:33:59Z" finished-at="2021-11-19T15:34:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signoff -->
+      </class> <!-- com.qa.TestScripts.TC15_Xpath_Dashboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
